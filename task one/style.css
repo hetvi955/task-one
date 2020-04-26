@@ -1,0 +1,56 @@
+#div1 {margin:100px;font-size:1.6em;}
+table {border-collapse:collapse;border:1px solid #7f7f7f; padding: 30px;}
+td {border:1px solid #7f7f7f;width:100px;height:100px;text-align:center; background-color:black;color:blanchedalmond}
+
+#timerdisplay{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: indianred;
+    margin-left: 1100px;
+    margin-top: auto;
+}
+#cen{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: indianred;
+    margin-left: 1100px;
+    margin-top: auto;
+}
+
+.boxs h1{
+    font-style: bold;
+    font-size: 30px;
+    margin-left: 150px;
+    color:navy;
+    margin-top:80px;
+}
+.boxs h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    color:rgb(83, 83, 235);
+}
+button{
+    font-size: 25px;
+    padding: 20px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: oldlace;
+    background-color: olivedrab;
+    margin-left: 1100px;
+    margin-top: auto;
+}
+#countdown {
+    font-size: 80px;
+
+    align-self: center;
+    color:green;
+    margin-left: 150px;
+    margin-top: auto;
+
+}
+.time{
+    margin-left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: grey;
+}
