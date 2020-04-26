@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>taskone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p id="timerdisplay">Time Elapsed</p>   
+<div id="cen"></div>
+
+
+    <div class="boxs">
+        <h1> Tap the numbers in ascending order.</h1>
+        <h2>Be as fast as you can!</h2>
+        <button onclick="window.location.reload();">NEW GAME</button>
+    </div>
+    <div class="time" id="time">Your time starts in-</div>
+    <p id="countdown">5 secs</p>
+<div id="div1"></div>
+
+
+<script src="main.js"></script>
+<script>
+    var counter=5;
+    setInterval(function(){
+    counter--;
+    if(counter>=0){
+        id=document.getElementById("countdown");
+        id.innerHTML=counter;
+
+    }
+    },1000);
+    function hidediv(){
+        document.getElementById("countdown").style.display="none";
+        document.getElementById("time").style.display="none";
+    }
+    setTimeout(hidediv,6000);
+
+
+
+
+
+
+
+</script>
+
+
+
+
+   
+    
+
+    
+
+
+</body>
+</html> 
+
+
+
+
+
+        
+        
+    
